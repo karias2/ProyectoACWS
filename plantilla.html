@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6"
       xmlns:th="http://www.thymeleaf.org">
-      //////Hola
     <head th:fragment="head">
         <title>PaMonchar</title>
         <meta charset="UTF-8"/>
@@ -15,7 +14,6 @@
         <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
     </head>
     <body class="bg-secondary">
-        ///help
         <!-- 1 Fragmento tabla de navegacion -->
         <header class="header" style="background: linear-gradient(to right, #fdba14, #df531e); height: 110px; display: flex; justify-content: center; align-items: center;">
             <a th:href="@{/}" class="navbar-brand fa-solid fa-burger fa-3x" style="color: #000000; margin-right: 8px"></a>
@@ -60,7 +58,7 @@
                                 </a>
                             </li>
                         </ul>
-// PRUEBA JALI 
+                        //SEGUNDA PRUEBA YAILYN
                         <!-- 6 UL links de categoria,productos,usuarios,carrusel,card-->
                         <ul class="navbar-nav " sec:authorize="hasRole('ROLE_VENDEDOR')">
                             <li class="nav-item dropdown" style="font-family:fantasy; font-size: 24px; color: #000000;" sec:authorize="hasAnyRole('ROLE_ADMIN', 'ROLE_VENDEDOR')">
