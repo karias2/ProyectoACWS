@@ -11684,3 +11684,50 @@ html {
     left: -2vw;
   }
 }
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos específicos para el header */
+.header {
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Ajustes responsivos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: inline-block;
+    }
+
+    .header a {
+        font-size: 24px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu-categories {
+        padding: 15px;
+    }
+
+    .list-group-item {
+        font-size: 16px;
+    }
+}
