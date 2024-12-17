@@ -6,14 +6,11 @@ session_start(); // Iniciar sesión para verificar autenticación y roles
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-
+<?php include 'includes/header.php'; ?>
 </head>
-
 <body class="d-flex flex-column h-100 --bs-emphasis-color">
 
   <!-- 1 Fragmento tabla de navegación -->
-
-  <?php include 'includes/header.php'; ?>
 
 <!-- Carrusel -->
   <div class="card-body p-4">
@@ -27,10 +24,9 @@ session_start(); // Iniciar sesión para verificar autenticación y roles
             <div class="row row-cols-1 g-4">
               <div class="col">
                 <div class="card h-100 shadow-sm">
-                  <img src="https://th.bing.com/th/id/OIP.gdn8D0XxBBFdsFHOQkDVUwHaEK?rs=1&pid=ImgDetMain"
+                  <img src="https://cdn.pixabay.com/photo/2023/08/03/13/20/ai-generated-8167162_1280.jpg"
                     class="card-img-top" alt="Imagen 1">
-                    <div class="card-body">
-                    <h5 class="card-title">Descripción de la Imagen 1</h5>
+                    <div class="card-body">                 
                   </div>
                 </div>
               </div>
@@ -42,10 +38,9 @@ session_start(); // Iniciar sesión para verificar autenticación y roles
             <div class="row row-cols-1 g-4">
               <div class="col">
                 <div class="card h-100 shadow-sm">
-                  <img src="https://th.bing.com/th/id/OIP.6TvVRouyDxliUU-rS4Us3QHaFE?rs=1&pid=ImgDetMain"
+                  <img src="https://www.goya.com/media/6983/cuban-style-barbecued-flank-steak-with-grilled-onions-and-corn.jpg"
                     class="card-img-top" alt="Imagen 2">
                   <div class="card-body">
-                    <h5 class="card-title">Descripción de la Imagen 2</h5>
                   </div>
                 </div>
               </div>
@@ -85,7 +80,7 @@ session_start(); // Iniciar sesión para verificar autenticación y roles
       <!-- Card 2 -->
       <div class="col mb-4">
         <div class="card h-100 custom-card">
-          <img src="https://plenilunia.com/wp-content/uploads/2014/02/Depositphotos_28207805_l.jpg" class="card-img-top"
+          <img src="https://www.hazteveg.com/img/recipes/full/201612/R03-65246.jpg" class="card-img-top"
             alt="Smoothie Verde">
           <div class="card-body">
             <h5 class="card-title">Smoothie Verde</h5>
@@ -108,20 +103,7 @@ session_start(); // Iniciar sesión para verificar autenticación y roles
     </div>         
   </section>
 
-
-  <!-- 10 footer -->
-  <footer class="footer">
-    <h2>Contáctanos</h2>
-    <h4>+506 8745 2819</h4>
-    <div style="margin: 10px 0;">
-      <i class="fa-brands fa-facebook fa-xl icon-facebook"></i>
-      <i class="fa-brands fa-instagram fa-xl icon-instagram"></i>
-      <i class="fa-brands fa-x-twitter fa-xl icon-twitter"></i>
-      <i class="fa-brands fa-whatsapp fa-xl icon-whatsapp"></i>
-      
-    </div>
-    <p class= "derechos">© Derechos reservados</p>
-  </footer>
+  <?php include 'includes/footer.php'; ?>
 </body>
 
 </html>
