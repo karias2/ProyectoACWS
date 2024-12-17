@@ -4226,6 +4226,53 @@ justify-content: center;    /* Centra horizontalmente */
   text-align: center;
 }
 
+/*Login*/
+
+body {
+  background-color: #f5f5f5;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  /* Sin bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 0;
+  /* Input cuadrado */
+  border: 1px solid #ccc;
+}
+
+.btn-login {
+  background-color: #041f70;
+  /* Azul fuerte */
+  color: white;
+  border: none;
+  border-radius: 0;
+  /* Botón cuadrado */
+  padding: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #002ead;
+}
+
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
